@@ -25,13 +25,12 @@ cp .env.example .env
 ```
 
 
-<p> start containes </p>d
+<p> start containes </p>
 
 ```
 docker compose up -d
 ```
 
-kjshdvfkah 
 <p> Migrations and Seed Database </p>
 
 ```
