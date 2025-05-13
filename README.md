@@ -32,3 +32,23 @@ cp .env.example .env
 
 # Build and run containers
 docker-compose up --build -d
+
+```
+
+## For Installing Telescope 
+
+Before installation Telescope you should add on the .env 
+``` 
+
+APP_ENV=local
+TELESCOPE_ENABLED=true
+
+```
+
+Run the following commands in on Docker container:
+```
+docker exec -it app bash
+php artisan telescope:install
+php artisan migrate
+
+```
